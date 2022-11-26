@@ -79,7 +79,7 @@ class Ui_logic_window(QtWidgets.QMainWindow):
             print(str(reason))
         else:
             if self.openfile_name_model:
-                QtWidgets.QMessageBox.warning(self, u"Ok!", u"loading complete！", buttons=QtWidgets.QMessageBox.Ok, defaultButton=QtWidgets.QMessageBox.Ok)
+                QtWidgets.QMessageBox.warning(self, u"Ok!", u"载入完成！", buttons=QtWidgets.QMessageBox.Ok, defaultButton=QtWidgets.QMessageBox.Ok)
                 self.ui.message_box.append("Model loading complete!")
                 self.ui.Button_open_img.setDisabled(False)
                 self.ui.Button_open_vid.setDisabled(False)

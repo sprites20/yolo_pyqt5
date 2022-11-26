@@ -134,8 +134,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Detection System"))
-        self.label_10.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:16pt;\">Input</span></p></body></html>"))
-        self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:16pt;\">Output</span></p></body></html>"))
+        self.label_10.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:16pt;\">输入</span></p></body></html>"))
+        self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:16pt;\">输出</span></p></body></html>"))
         self.Button_load_model.setText(_translate("MainWindow", "Load Model"))
         self.Button_stop.setText(_translate("MainWindow", "Stop"))
         self.Button_open_vid.setText(_translate("MainWindow", "Open Video"))
